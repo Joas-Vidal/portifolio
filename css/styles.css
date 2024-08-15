@@ -54,7 +54,6 @@ body {
     opacity: 1;
   }
   
-  /* Estilos do modal */
   .modal {
     display: none;
     position: fixed;
