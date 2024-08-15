@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meu portifólio</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="gallery">
+    <div class="gallery-item">
+      <img src="images/logo.png" alt="LogoTipo Simples">
+      <div class="gallery-item-info">
+        <h3>LogoTipo Simples</h3>
+      </div>
+    </div>
+    <div class="gallery-item">
+      <img src="images/estude.png" alt="Template Motivacional">
+      <div class="gallery-item-info">
+        <h3>Template Motivacional</h3>
+      </div>
+    </div>
+    <div class="gallery-item" style="display: flex; align-items: flex-start; justify-content: center;">
+       <video src="images/JV.mp4" muted autoplay></video>
+      <div class="gallery-item-info">
+        <h3>Card Corporativo</h3>
+      </div>
+    </div>
+    <div class="gallery-item">
+        <img src="images/marca.png" alt="Marca d'água política">
+        <div class="gallery-item-info">
+          <h3>Marca d'água política</h3>
+        </div>
+    </div>
+      <div class="gallery-item">
+        <img src="images/ENTRE RIOS (2).png" alt="Template 2">
+        <div class="gallery-item-info">
+          <h3>Banner Político</h3>
+        </div>
+    </div>
+    <div class="gallery-item">
+        <img src="images/pati.png" alt="Card Político">
+        <div class="gallery-item-info">
+          <h3>Card Político</h3>
+        </div>
+    </div>
+    <!-- Adicione mais templates aqui -->
+  </div>
+
+  <div id="modal" class="modal">
+    <span class="close">&times;</span>
+    <img class="modal-content" id="modal-img">
+    <video class="modal-content" id="modal-video" autoplay controls style="display:none;"></video>
+    <div id="caption"></div>
+  </div>
+  
+  <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+  <script src="js/scripts.js"></script>
+</body>
+</html>
